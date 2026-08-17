@@ -1,0 +1,65 @@
+{
+	"Name": "Ethereum Deck",
+	"Version": "0.1.0.0",
+	"Author": "Florian Seffert",
+	"Actions": [
+		{
+			"Name": "Price",
+			"UUID": "com.florian-seffert.ethereum-deck.increment",
+			"Icon": "imgs/actions/counter/icon",
+			"Tooltip": "Displays the current ETH price in USD or EUR.",
+			"PropertyInspectorPath": "ui/price.html",
+			"Controllers": [
+				"Keypad"
+			],
+			"States": [
+				{
+					"Image": "imgs/actions/price/transparent",
+					"Title": "ETH\nPrice",
+					"TitleAlignment": "bottom"
+				}
+			]
+		},
+		{
+			"Name": "Gas Price",
+			"UUID": "com.florian-seffert.ethereum-deck.gas-estimate",
+			"Icon": "imgs/actions/counter/icon",
+			"Tooltip": "Displays the current Ethereum gas price in gwei.",
+			"PropertyInspectorPath": "ui/gas-estimate.html",
+			"Controllers": [
+				"Keypad"
+			],
+			"States": [
+				{
+					"Image": "imgs/actions/gas/transparent",
+					"Title": "Gas\nPrice",
+					"TitleAlignment": "bottom"
+				}
+			]
+		}
+	],
+	"Category": "Ethereum Deck",
+	"CategoryIcon": "imgs/plugin/category-icon",
+	"CodePath": "bin/plugin.js",
+	"Description": "Your Ethereum control for Stream Deck. Get any infos you need right at your stream deck device!",
+	"Icon": "imgs/plugin/marketplace",
+	"SDKVersion": 3,
+	"Software": {
+		"MinimumVersion": "7.1"
+	},
+	"OS": [
+		{
+			"Platform": "mac",
+			"MinimumVersion": "12"
+		},
+		{
+			"Platform": "windows",
+			"MinimumVersion": "10"
+		}
+	],
+	"Nodejs": {
+		"Version": "24",
+		"Debug": "enabled"
+	},
+	"UUID": "com.florian-seffert.ethereum-deck"
+}

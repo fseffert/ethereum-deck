@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="144" height="144" viewBox="0 0 144 144" fill="none">
+  <g transform="translate(23.04 -0.5) scale(0.68 0.55)">
+    <path d="M72 10L32 72L72 52V10Z" fill="#8A8F98" />
+    <path d="M72 10L112 72L72 52V10Z" fill="#454A52" />
+    <path d="M32 72L72 52V91L32 72Z" fill="#626770" />
+    <path d="M112 72L72 52V91L112 72Z" fill="#2F3339" />
+    <path d="M32 78L72 101V134L32 78Z" fill="#9499A2" />
+    <path d="M112 78L72 101V134L112 78Z" fill="#4C5159" />
+  </g>
+</svg>

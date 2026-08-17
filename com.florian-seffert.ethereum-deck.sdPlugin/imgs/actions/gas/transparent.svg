@@ -1,0 +1,67 @@
+<svg width="144" height="144" viewBox="0 0 144 144" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <title>Gas Pump Icon</title>
+  <defs>
+    <linearGradient id="pumpOuter" x1="26" y1="16" x2="94" y2="126" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#8A8F98"/>
+      <stop offset="0.55" stop-color="#626770"/>
+      <stop offset="1" stop-color="#2F3339"/>
+    </linearGradient>
+    <linearGradient id="pumpFront" x1="34" y1="20" x2="86" y2="118" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#9499A2"/>
+      <stop offset="0.55" stop-color="#8A8F98"/>
+      <stop offset="1" stop-color="#4C5159"/>
+    </linearGradient>
+    <linearGradient id="screenFrame" x1="40" y1="28" x2="80" y2="64" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#454A52"/>
+      <stop offset="1" stop-color="#2F3339"/>
+    </linearGradient>
+    <linearGradient id="screenGlass" x1="47" y1="33" x2="72" y2="52" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#9499A2"/>
+      <stop offset="1" stop-color="#626770"/>
+    </linearGradient>
+    <linearGradient id="baseGrad" x1="18" y1="118" x2="104" y2="140" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4C5159"/>
+      <stop offset="0.5" stop-color="#454A52"/>
+      <stop offset="1" stop-color="#2F3339"/>
+    </linearGradient>
+    <linearGradient id="nozzleGrad" x1="98" y1="44" x2="115" y2="80" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#626770"/>
+      <stop offset="0.55" stop-color="#4C5159"/>
+      <stop offset="1" stop-color="#2F3339"/>
+    </linearGradient>
+    <linearGradient id="pipeGrad" x1="92" y1="31" x2="106" y2="44" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#9499A2"/>
+      <stop offset="1" stop-color="#626770"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(36 -4) scale(0.55)">
+  <path d="M102 80C111 84 115 93 115 105C115 117 110 126 101 126C92 126 87 120 87 111V88" stroke="#2F3339" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M102 80C108 84 111 93 111 104C111 114 107 121 101 121C95 121 91 117 91 111V88" stroke="#4C5159" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M31 16H82C89.18 16 95 21.82 95 29V118H28V19C28 17.34 29.34 16 31 16Z" fill="url(#pumpOuter)"/>
+  <path d="M36 20H79C84.52 20 89 24.48 89 30V114H34V22C34 20.9 34.9 20 36 20Z" fill="url(#pumpFront)"/>
+  <path d="M89 30C89 24.48 84.52 20 79 20H83C88.52 20 93 24.48 93 30V114H89V30Z" fill="#626770"/>
+  <path d="M84 20H79C84.52 20 89 24.48 89 30V114H86V30C86 25.58 82.42 22 78 22H84V20Z" fill="#9499A2" opacity="0.45"/>
+  <path d="M37 21H77C82.52 21 87 25.48 87 31V37C80 35 71 36 60 41C49 46 42 55 37 65V21Z" fill="#9499A2" opacity="0.18"/>
+  <rect x="39" y="27" width="41" height="39" rx="7" fill="url(#screenFrame)"/>
+  <rect x="44" y="32" width="31" height="28" rx="5" fill="#2F3339"/>
+  <rect x="47" y="35" width="25" height="19" rx="3" fill="url(#screenGlass)"/>
+  <path d="M47 35H59L47 47V35Z" fill="#9499A2" opacity="0.35"/>
+  <rect x="48" y="57" width="5.8" height="2.8" rx="1.4" fill="#8A8F98"/>
+  <rect x="57" y="57" width="5.8" height="2.8" rx="1.4" fill="#8A8F98"/>
+  <rect x="66" y="57" width="5.8" height="2.8" rx="1.4" fill="#8A8F98"/>
+  <path d="M38 72H83" stroke="#8A8F98" stroke-width="1.6" opacity="0.65"/>
+  <path d="M38 107C45 93 58 84 83 79V92C64 96 49 104 38 117V107Z" fill="#9499A2" opacity="0.4"/>
+  <rect x="92" y="32" width="19" height="54" rx="4" fill="#2F3339"/>
+  <rect x="95" y="36" width="13" height="46" rx="3" fill="#454A52"/>
+  <path d="M98 38C102 40 106 43 108 47" stroke="url(#pipeGrad)" stroke-width="7" stroke-linecap="round"/>
+  <path d="M98.5 38C102 40.5 105 43 107 46" stroke="#9499A2" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+  <path d="M103 45L112 50L111 61L108 78L99.5 80L95.5 73L96 57L98.5 49L103 45Z" fill="url(#nozzleGrad)"/>
+  <path d="M103 45L112 50L111.3 57.5L103 57V45Z" fill="#8A8F98" opacity="0.22"/>
+  <path d="M100.5 58H106L106.5 77L100.4 78C97.4 78 95 75.6 95 72.6V63.4C95 60.4 97.4 58 100.5 58Z" fill="#454A52"/>
+  <path d="M101.2 61H104C105 61 105.8 61.8 105.8 62.8V72.1C105.8 73.2 104.9 74 103.8 74H101.8C100.7 74 99.8 73.1 99.8 72V62.4C99.8 61.6 100.4 61 101.2 61Z" fill="#2F3339"/>
+  <rect x="107.2" y="77.2" width="4.8" height="5.2" rx="1" fill="#9499A2"/>
+  <path d="M23 118H95C98.87 118 102 121.13 102 125V132C102 135.87 98.87 139 95 139H22C18.69 139 16 136.31 16 133V125C16 121.13 19.13 118 23 118Z" fill="url(#baseGrad)"/>
+  <path d="M25 119H93C96.31 119 99 121.69 99 125V126H18V125C18 121.69 20.69 119 24 119H25Z" fill="#8A8F98" opacity="0.5"/>
+  <path d="M88 118H95C98.87 118 102 121.13 102 125V132C102 135.87 98.87 139 95 139H88C91.87 139 95 135.87 95 132V125C95 121.13 91.87 118 88 118Z" fill="#2F3339" opacity="0.4"/>
+  </g>
+</svg>
