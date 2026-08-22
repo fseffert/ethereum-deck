@@ -1,6 +1,6 @@
 # Ethereum Deck
 
-Ethereum Deck is an Elgato Stream Deck plugin that keeps useful Ethereum market information visible on a Stream Deck key. It provides live ETH price and network gas-price actions without requiring a browser to remain open.
+Ethereum Deck is an Elgato Stream Deck plugin that keeps useful Ethereum market and network information visible on a Stream Deck key. It provides live ETH price, gas-price, and transaction-count actions without requiring a browser to remain open.
 
 ## Features
 
@@ -18,6 +18,14 @@ Ethereum Deck is an Elgato Stream Deck plugin that keeps useful Ethereum market 
 - Refreshes automatically every 5 minutes.
 - Refreshes the displayed value when the key is pressed, subject to the API's five-minute request cooldown.
 
+### Transaction Count
+
+- Displays the number of Ethereum transactions on a Stream Deck key.
+- Supports counts from the last **1 hour**, **1 day**, **7 days**, or **30 days**, selectable in the action's settings.
+- Uses the last hour as the default period.
+- Refreshes automatically every hour.
+- Updates the displayed value immediately when a different period is selected.
+
 If a request fails, the plugin keeps the last displayed value and shows an alert on the key.
 
 ## Requirements
@@ -32,8 +40,8 @@ For development, Node.js 24 and npm are expected.
 
 1. Open the Stream Deck application.
 2. Find **Ethereum Deck** in the actions list.
-3. Drag **Price** or **Gas Price** onto a Stream Deck key.
-4. Select the key and configure its currency or gas-price speed in the property inspector.
+3. Drag **Price**, **Gas Price**, or **Transaction Count** onto a Stream Deck key.
+4. Select the key and configure its currency, gas-price speed, or transaction-count period in the property inspector.
 5. Press the key whenever you want to refresh the displayed value manually.
 
 ## Development
@@ -65,4 +73,4 @@ npx streamdeck pack com.florian-seffert.ethereum-deck.sdPlugin
 
 ## Data Source
 
-The plugin obtains ETH prices and gas estimates from the Ethereum Deck API endpoints configured in `src/actions/eth-price.ts` and `src/actions/gas-estimate.ts`. No wallet connection, private key, or transaction signing is involved.
+The plugin obtains ETH prices, gas estimates, and transaction counts from the Ethereum Deck API endpoints configured in `src/actions/eth-price.ts`, `src/actions/gas-estimate.ts`, and `src/actions/transaction-count.ts`. No wallet connection, private key, or transaction signing is involved.
