@@ -36,6 +36,23 @@
 					"TitleAlignment": "bottom"
 				}
 			]
+		},
+		{
+			"Name": "Transaction Count",
+			"UUID": "com.florian-seffert.ethereum-deck.transaction-count",
+			"Icon": "imgs/actions/counter/icon",
+			"Tooltip": "Displays the Ethereum transaction count for a configurable period.",
+			"PropertyInspectorPath": "ui/transaction-count.html",
+			"Controllers": [
+				"Keypad"
+			],
+			"States": [
+				{
+					"Image": "imgs/actions/transaction-count/transparent",
+					"Title": "TX\nCount",
+					"TitleAlignment": "bottom"
+				}
+			]
 		}
 	],
 	"Category": "Ethereum Deck",

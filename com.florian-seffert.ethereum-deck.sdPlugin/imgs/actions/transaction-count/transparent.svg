@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="144" height="144" viewBox="0 0 144 144" fill="none">
+  <title>TX Icon</title>
+  <defs>
+    <linearGradient id="txFront" x1="30" y1="10" x2="111" y2="76" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#9499A2"/>
+      <stop offset="0.55" stop-color="#626770"/>
+      <stop offset="1" stop-color="#454A52"/>
+    </linearGradient>
+    <linearGradient id="txEdge" x1="38" y1="22" x2="112" y2="80" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#626770"/>
+      <stop offset="1" stop-color="#2F3339"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(0 -1)">
+    <path d="M28 17H72V31H58V78H42V31H28V17Z" fill="url(#txEdge)"/>
+    <path d="M25 13H69V27H55V74H39V27H25V13Z" fill="url(#txFront)"/>
+    <path d="M76 13H94L104 29L114 13H132L113 43L133 74H115L104 57L93 74H75L95 43L76 13Z" fill="url(#txEdge)"/>
+    <path d="M72 13H90L100 29L110 13H128L109 43L129 74H111L100 57L89 74H71L91 43L72 13Z" fill="url(#txFront)"/>
+    <path d="M25 13H69V19H25V13ZM72 13H90L94 19H76L72 13ZM110 13H128L124 19H106L110 13Z" fill="#9499A2" opacity="0.55"/>
+  </g>
+</svg>
