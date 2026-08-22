@@ -8,7 +8,7 @@ import streamDeck, {
 	WillDisappearEvent,
 } from "@elgato/streamdeck";
 
-const PRICE_URL = "http://ethdeck.dekanhort.internal/api/v1/eth-price";
+const PRICE_URL = "https://ethdeck.web3.center/api/v1/eth-price";
 const REFRESH_INTERVAL_MS = 150_000;
 
 type Currency = "USD" | "EUR";

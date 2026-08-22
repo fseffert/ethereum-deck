@@ -8,7 +8,7 @@ import streamDeck, {
 	WillDisappearEvent,
 } from "@elgato/streamdeck";
 
-const GAS_ESTIMATE_URL = "http://ethdeck.dekanhort.internal/api/v1/gas-estimate";
+const GAS_ESTIMATE_URL = "https://ethdeck.web3.center/api/v1/gas-estimate";
 const REFRESH_INTERVAL_MS = 5 * 60 * 1000;
 
 type GasPrice = "safe" | "proposed" | "fast";
