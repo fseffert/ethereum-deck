@@ -100,13 +100,19 @@ export class TransactionCount extends SingletonAction<TransactionCountSettings> 
 				"7d": count.last_7d,
 				"30d": count.last_30d,
 			};
+			const labels: Record<TransactionPeriod, string> = {
+				"1h": "hour",
+				"1d": "day",
+				"7d": "7 days",
+				"30d": "30 days",
+			};
 			const value = Number(values[period]);
 
 			if (!Number.isFinite(value)) {
 				throw new Error(`Transaction count API returned an invalid ${period} value`);
 			}
 
-			await action.setTitle(`\n\n\n${new Intl.NumberFormat("en-US").format(value)}`);
+			await action.setTitle(`\n\n\n${new Intl.NumberFormat("en-US").format(value)}\n${labels[period]}`);
 		} catch (error) {
 			streamDeck.logger.warn(
 				"Unable to refresh the transaction count; keeping the last displayed value.",

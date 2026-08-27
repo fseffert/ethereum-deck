@@ -11,10 +11,10 @@
       <stop offset="1" stop-color="#2F3339"/>
     </linearGradient>
   </defs>
-  <g transform="translate(0 -1)">
+  <g transform="translate(-7 -1)">
     <path d="M28 17H72V31H58V78H42V31H28V17Z" fill="url(#txEdge)"/>
     <path d="M25 13H69V27H55V74H39V27H25V13Z" fill="url(#txFront)"/>
-    <path d="M76 13H94L104 29L114 13H132L113 43L133 74H115L104 57L93 74H75L95 43L76 13Z" fill="url(#txEdge)"/>
+    <path d="M76 17H94L104 33L114 17H132L113 47L133 78H115L104 61L93 78H75L95 47L76 17Z" fill="url(#txEdge)"/>
     <path d="M72 13H90L100 29L110 13H128L109 43L129 74H111L100 57L89 74H71L91 43L72 13Z" fill="url(#txFront)"/>
     <path d="M25 13H69V19H25V13ZM72 13H90L94 19H76L72 13ZM110 13H128L124 19H106L110 13Z" fill="#9499A2" opacity="0.55"/>
   </g>
