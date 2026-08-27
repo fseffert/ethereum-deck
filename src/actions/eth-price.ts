@@ -26,7 +26,7 @@ type PriceResponse = {
 };
 
 /** Displays the current ETH price in the configured currency. */
-@action({ UUID: "com.florian-seffert.ethereum-deck.increment" })
+@action({ UUID: "com.florian-seffert.ethereum-deck.price" })
 export class EthPrice extends SingletonAction<PriceSettings> {
 	private readonly refreshTimers = new Map<string, NodeJS.Timeout>();
 	private readonly currencies = new Map<string, Currency>();
@@ -99,7 +99,7 @@ export class EthPrice extends SingletonAction<PriceSettings> {
 				throw new Error(`Price API returned an invalid ${currency} price`);
 			}
 
-			await action.setTitle(`\n\n\n${this.formatPrice(numericValue, currency)}`);
+			await action.setTitle(`\n\n\n${this.formatPrice(numericValue, currency)}\n${currency}`);
 		} catch (error) {
 			streamDeck.logger.warn("Unable to refresh the ETH price; keeping the last displayed value.", error);
 			await action.showAlert();
@@ -138,6 +138,6 @@ export class EthPrice extends SingletonAction<PriceSettings> {
 			maximumFractionDigits: 2,
 		}).format(value);
 
-		return currency === "EUR" ? `${formatted}€` : `$${formatted}`;
+		return formatted;
 	}
 }

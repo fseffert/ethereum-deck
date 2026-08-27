@@ -5,7 +5,7 @@
 	"Actions": [
 		{
 			"Name": "Price",
-			"UUID": "com.florian-seffert.ethereum-deck.increment",
+			"UUID": "com.florian-seffert.ethereum-deck.price",
 			"Icon": "imgs/actions/counter/icon",
 			"Tooltip": "Displays the current ETH price in USD or EUR.",
 			"PropertyInspectorPath": "ui/price.html",
